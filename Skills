@@ -1,0 +1,21 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+<head>
+         <title>Professional Skills</title>
+ 
+ <div class="skill-card">
+                    <h3>Professional Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item"><span>Data Cleaning</span></div>
+                        <div class="skill-item"> <span>Data Preparation</span></div>
+                        <div class="skill-item"> <span>Exploratory Data Analysis (EDA)</span></div>
+                        <div class="skill-item"> <span>ETL (Extract, Transform, Load)</span></div>
+                        <div class="skill-item"><span>Dashboard Development</span></div>
+                        <div class="skill-item"> <span>Data Visualization</span></div>
+                        <div class="skill-item"> <span>Data Storytelling</span></div>
+                        <div class="skill-item"> <span>Insights Reporting</span></div>
+                    </div>
+                </div>
+</head>
+ </html>                
