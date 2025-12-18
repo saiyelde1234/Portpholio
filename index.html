@@ -449,63 +449,40 @@
             </div>
             <!-- closes certificate-grid -->
 
-        </section>
+      <section id="contact" class="contact-section">
+    <h2 class="section-title">CONTACT</h2>
+    <p class="section-subtitle">
+        I'd love to hear from you—reach out for any opportunities or questions!
+    </p>
 
+    <p id="form-confirm" class="confirmation-message" style="display:none;">
+        Message sent successfully! Thanks for reaching out.
+    </p>
 
+    <div class="contact-form-container">
+        <h3>Connect With Me</h3>
 
-        </section>
-
-        <section id="contact" class="contact-section">
-            <h2 class="section-title">CONTACT</h2>
-            <p class="section-subtitle">
-                I'd love to hear from you—reach out for any opportunities or questions!
-            </p>
-
-            <p id="form-confirm" class="confirmation-message">
-                Message sent successfully! Thanks for reaching out.
-            </p>
-
-            <div class="contact-form-container">
-                <h3>Connect With Me </h3>
-
-                <form name="contact" id="contactForm" method="POST" data-netlify="true">
-                    <div class="input-wrapper">
-                        <i class="fas fa-user"></i>
-                        <label for="name" class="visually-hidden">Your Name</label>
-                        <input type="text" id="name" name="name" placeholder="Your Name" required/>
-                    </div>
-
-                    <div class="input-wrapper">
-                        <i class="fas fa-envelope"></i>
-                        <label for="email" class="visually-hidden">Your Email</label>
-                        <input type="email" id="email" name="email" placeholder="Your Email" required/>
-                    </div>
-
-                    <div class="input-wrapper">
-                        <i class="fas fa-pen-to-square"></i>
-                        <label for="subject" class="visually-hidden">Subject</label>
-                        <input type="text" id="subject" name="subject" placeholder="Subject" required/>
-                    </div>
-
-                    <div class="input-wrapper">
-                        <label for="message" class="visually-hidden">Message</label>
-                        <textarea id="message" name="message" rows="6" placeholder="Message" required></textarea>
-                    </div>
-
-                    <input type="hidden" name="form-name" value="contact"/>
-
-                    <button type="submit" class="btn-send">Message Me</button>
-                </form>
+        <form id="contactForm">
+            <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Your Name" required />
             </div>
-        </section>
 
-        <form name="contact" data-netlify="true" hidden>
-            <input type="text" name="name"/>
-            <input type="email" name="email"/>
-            <input type="text" name="subject"/>
-            <textarea name="message"></textarea>
+            <div class="input-wrapper">
+                <input type="email" name="email" placeholder="Your Email" required />
+            </div>
+
+            <div class="input-wrapper">
+                <input type="text" name="subject" placeholder="Subject" required />
+            </div>
+
+            <div class="input-wrapper">
+                <textarea name="message" rows="6" placeholder="Message" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-send">Message Me</button>
         </form>
-
+    </div>
+</section>
         <script src="script.js"></script>
 
         </section>
